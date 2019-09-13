@@ -27,7 +27,7 @@ conda deactivate
 
 To install the required packages, run the following command in your `instafake` virtual environment:
 ```
-pip install -r setup/requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Dataset Structures
