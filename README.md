@@ -1,4 +1,4 @@
-# instafake-dataset
+# InstaFake Dataset
 Dataset for Intagram Fake and Automated Account Detection
 
 ### Installation
@@ -28,6 +28,23 @@ conda deactivate
 To install the required packages, run the following command in your `instafake` virtual environment:
 ```
 pip install -r requirements.txt
+```
+
+### Import Datasets as Dataframes
+To import the fake and automated datasets as pandas dataframes, simply define the dataset folder path `data`, and dataset version  `dataset_version` and call `import_data` from `utils`:
+
+```
+from utils import import_data
+
+dataset_path = "data"
+dataset_version = "fake-v1.0"
+
+fake_dataset = import_data(dataset_path, dataset_version)
+
+dataset_path = "data"
+dataset_version = "automated-v1.0"
+
+automated_dataset = import_data(dataset_path, dataset_version)
 ```
 
 ### Dataset Structures
