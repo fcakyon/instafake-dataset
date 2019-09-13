@@ -77,3 +77,81 @@ The dataset contains of 2 set of json files with given features:
 12. `media_hashtag_numbers` - Total number of hashtags, given media has.
 13. `media_upload_times` - Media upload timastamps.
 14. `automated_behaviour` - True, if account is an automated account, False otherwise
+
+### Dataset Metadata
+The following table is necessary for this dataset to be indexed by search
+engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
+<div itemscope itemtype="http://schema.org/Dataset">
+<table>
+  <tr>
+    <th>property</th>
+    <th>value</th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td><code itemprop="name">InstaFake Dataset: An Instagram fake and automated account detection dataset</code></td>
+  </tr>
+  <tr>
+    <td>alternateName</td>
+    <td><code itemprop="alternateName">InstaFake Dataset</code></td>
+  </tr>
+  <tr>
+    <td>url</td>
+    <td><code itemprop="url">https://github.com/fcakyon/instafake-dataset</code></td>
+  </tr>
+  <tr>
+    <td>sameAs</td>
+    <td><code itemprop="sameAs">https://github.com/fcakyon/instafake-dataset</code></td>
+  </tr>
+    <tr>
+    <td>sameAs</td>
+    <td><code itemprop="sameAs">https://github.com/fcakyon/instafake-dataset</code></td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td><code itemprop="description">The InstaFake Dataset is comprised of anonymized Instagram user data collected by Fatih Cagatay Akyon and Esat Kalfaoglu over the second half of 2018. We’re releasing this dataset publicly to aid the research community in making advancements in machine learning based social media analysis.</code></td>
+  </tr>
+  <tr>
+    <td>provider</td>
+    <td>
+      <div itemscope itemtype="http://schema.org/Organization" itemprop="provider">
+        <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td><code itemprop="name">Fatih C. Akyon and Esat Kalfaoglu</code></td>
+          </tr>
+          <tr>
+            <td>sameAs</td>
+            <td><code itemprop="sameAs">https://scholar.google.com.tr/citations?user=RHGyDE0AAAAJ&hl=en</code></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>license</td>
+    <td>
+      <div itemscope itemtype="http://schema.org/CreativeWork" itemprop="license">
+        <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td><code itemprop="name">Attribution-NonCommercial</code></td>
+          </tr>
+          <tr>
+            <td>url</td>
+            <td><code itemprop="url">https://creativecommons.org/licenses/by-nc/4.0//</code></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>
