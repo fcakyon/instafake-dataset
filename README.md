@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ### Import Datasets as Dataframes
 To import the fake and automated datasets as pandas dataframes, simply define the dataset folder path `data`, and dataset version  `dataset_version` and call `import_data` from `utils`:
 
-```
+~~~py
 from utils import import_data
 
 dataset_path = "data"
@@ -45,7 +45,7 @@ dataset_path = "data"
 dataset_version = "automated-v1.0"
 
 automated_dataset = import_data(dataset_path, dataset_version)
-```
+~~~
 
 ### Dataset Structures
 
