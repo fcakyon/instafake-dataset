@@ -1,5 +1,5 @@
 # InstaFake Dataset
-Dataset of the [Intagram Fake and Automated Account Detection](https://drive.google.com/open?id=1-79oIFMl10UJzh9b9UDROTULfNGLoQvy) paper
+Dataset of the [Intagram Fake and Automated Account Detection](https://arxiv.org/pdf/1910.03090.pdf) paper
 
 ### Installation
 
